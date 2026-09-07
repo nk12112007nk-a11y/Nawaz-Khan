@@ -1,0 +1,7 @@
+n = int(input("Enter the number: "))
+k = int(input("Enter the bit position: "))
+
+if n & (1 << k):
+    print("Kth bit is set")
+else:
+    print("Kth bit is not set")
